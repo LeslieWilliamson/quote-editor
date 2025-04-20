@@ -7,5 +7,8 @@
     <h1>New quote</h1>
   </div>
 
-  <%= render "form", quote: @quote %>
+  <%= turbo_frame_tag @quote do %>
+    <%# @quote same as "new quote" or Quote.new %>
+    <%= render "form", quote: @quote %> 
+  <% end %>
 </main>
