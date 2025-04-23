@@ -9,7 +9,7 @@ This project is based on the [Turbo-Rails tutorial](https://www.hotrails.dev/tur
 how-to-use-postgresql-with-your-ruby-on-rails-application-on-ubuntu-20-04)
 * [Securing Rails Applications - Custom Credentials](https://guides.rubyonrails.org/security.html#custom-credentials)
 * [How To Code in Ruby](https://www.digitalocean.com/community/tutorial-series/how-to-code-in-ruby)
-
+* (Browser testing in WSL)[https://gist.github.com/danwhitston/5cea26ae0861ce1520695cff3c2c3315]
 
 ## Postgres
 
@@ -18,5 +18,9 @@ how-to-use-postgresql-with-your-ruby-on-rails-application-on-ubuntu-20-04)
 * [An Introduction to Queries in PostgreSQL](https://www.digitalocean.com/community/tutorials/introduction-to-queries-postgresql)
 * [Setting up Rails and PostgreSQL](https://robrace.dev/blog/setting-up-rails-and-postgresql/)
 
+## Redis
+
+* 
+
+## Linux
 * (Linux commands){https://www.geeksforgeeks.org/essential-linuxunix-commands/}
-* (Browser testing in WSL)[https://gist.github.com/danwhitston/5cea26ae0861ce1520695cff3c2c3315]
