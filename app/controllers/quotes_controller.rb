@@ -2,7 +2,7 @@ class QuotesController < ApplicationController
   before_action :set_quote, only: [ :show, :edit, :update, :destroy ]
 
   def index
-    @quotes = Quote.ordered
+    @quotes = current_company.quotes.ordered
   end
 
   def show
@@ -13,7 +13,8 @@ class QuotesController < ApplicationController
   end
 
   def create
-    @quote = Quote.new(quote_params)
+    # make sure to create the company association when createing the new quote
+    @quote = current_company.quotes.build(quote_params)
 
     if @quote.save
       respond_to do |format|
@@ -55,6 +56,7 @@ class QuotesController < ApplicationController
   end
 
   def set_quote
-    @quote = Quote.find(params[:id])
+    # ensure the scope is limitted to the current company so the user cannot manipulate another companies quotes
+    @quote = current_company.quotes.find(params[:id])
   end
 end

@@ -5,6 +5,7 @@ require "application_system_test_case"
 
 class QuotesTest < ApplicationSystemTestCase
   # setup do
+  #   login_as users(:accountant)
   #   # Create a quote to test with
   #   @quote = Quote.ordered.first
   # end
