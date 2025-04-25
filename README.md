@@ -20,7 +20,12 @@ how-to-use-postgresql-with-your-ruby-on-rails-application-on-ubuntu-20-04)
 
 ## Redis
 
-* 
+* [Redis for Ruby](https://redis.io/learn/develop/ruby)
+* [Redis to a Ruby on Rails Application](https://yaasir007.medium.com/redis-to-a-ruby-on-rails-application-21c3105219a3)
+  
+## Stimulus
+
+* [Stimulus Introduction](https://stimulus.hotwired.dev/handbook/introduction)
 
 ## Linux
 * (Linux commands){https://www.geeksforgeeks.org/essential-linuxunix-commands/}
