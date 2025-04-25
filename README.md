@@ -28,4 +28,4 @@ how-to-use-postgresql-with-your-ruby-on-rails-application-on-ubuntu-20-04)
 * [Stimulus Introduction](https://stimulus.hotwired.dev/handbook/introduction)
 
 ## Linux
-* (Linux commands){https://www.geeksforgeeks.org/essential-linuxunix-commands/}
+* [Linux commands](https://www.geeksforgeeks.org/essential-linuxunix-commands/)
