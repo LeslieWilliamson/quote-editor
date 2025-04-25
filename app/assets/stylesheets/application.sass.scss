@@ -4,17 +4,19 @@
 @import "mixins/media";
 
 // Configuration
-@import "config/variables";
+@import "config/animations";
 @import "config/reset";
+@import "config/variables";
 
 // Components
 @import "components/btn";
 @import "components/error_message";
+@import "components/flash";
 @import "components/form";
-@import "components/visually_hidden";
+@import "components/navbar";
 @import "components/quote";
 @import "components/turbo_progress_bar";
-@import "components/navbar";
+@import "components/visually_hidden";
 
 // Layouts
 @import "layouts/container";
