@@ -312,7 +312,7 @@ DEPENDENCIES
   cssbundling-rails
   debug
   devise (~> 4.9)
-  error_highlight (>= 0.7.0)
+  error_highlight (>= 0.3.0)
   jbuilder
   jsbundling-rails
   pg (~> 1.1)
